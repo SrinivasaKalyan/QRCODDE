@@ -147,8 +147,8 @@ st.text("")
 st.text("") 
 st.text("") 
 st.text("") 
-if st.button("About Creator🧐", key="about_creator_button"):
-     with st.expander("Kalyan Kanchumarthi"):
+
+with st.expander("Kalyan Kanchumarthi"):
                 col1, col2 = st.columns([1, 3])  # Adjust the ratio as needed
                 with col1:
                     st.image("mypic.jpg", use_column_width=True)

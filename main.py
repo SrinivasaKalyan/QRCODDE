@@ -6,7 +6,7 @@ from PIL import Image
 from streamlit_lottie import st_lottie
 import json
 
-with st.expander("Kalyan Kanchumarthi"):
+with st.expander("Personalize Your QR Code!"):
         st.write("""
 Create a QR CODE of your own...!!
 - Enter the required text or link and

@@ -6,6 +6,14 @@ from PIL import Image
 from streamlit_lottie import st_lottie
 import json
 
+
+st.set_page_config(
+    page_title="TeachTrack",
+    page_icon="qr.png", 
+    layout="centered",     
+    initial_sidebar_state="auto"
+)
+
 with st.expander("Personalize Your QR Code!"):
         st.write("""
 Create a QR CODE of your own...!!

@@ -8,7 +8,7 @@ import json
 
 
 st.set_page_config(
-    page_title="TeachTrack",
+    page_title="QR-Engine",
     page_icon="qr.png", 
     layout="centered",     
     initial_sidebar_state="auto"
